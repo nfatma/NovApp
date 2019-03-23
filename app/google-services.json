@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "177006633375",
+    "firebase_url": "https://novapp-fa5e0.firebaseio.com",
+    "project_id": "novapp-fa5e0",
+    "storage_bucket": "novapp-fa5e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177006633375:android:ccf5aaaf7cfed772",
+        "android_client_info": {
+          "package_name": "com.example.nfatma.novapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177006633375-idm2l42b6uh2e57ev9pgk9q2e6ck1bjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nfatma.novapp",
+            "certificate_hash": "ed374830a1ed44b4f59249339d4a445d3c217189"
+          }
+        },
+        {
+          "client_id": "177006633375-kst92ht0oscea9psd90sfg4kgco4nsv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQCmnVf6Wd2IAxtxjUb7XRL1S_29y_LfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177006633375-kst92ht0oscea9psd90sfg4kgco4nsv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

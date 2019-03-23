@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="95dp"
+        android:text="ID :" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="-2dp"
+        android:text="First Name :" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginRight="-4dp"
+        android:text="Last Name :" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="-9dp"
+        android:ems="10"
+        android:hint="id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/id"
+        android:layout_alignLeft="@+id/id"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-7dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_alignStart="@+id/id"
+        android:layout_alignLeft="@+id/id"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="171dp"
+        android:text="ADD"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>

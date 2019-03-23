@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxActivity">
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/cb2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="6dp"
+        android:text="Aditi" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:text="Anjali" />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:text="Kolla" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bt"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:text="Late Candidates"
+        android:layout_alignLeft="@+id/bt" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cb1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="115dp"
+        android:text="candidates"
+        android:layout_alignLeft="@+id/cb1" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="181dp"
+        android:text="Submit" />
+</RelativeLayout>

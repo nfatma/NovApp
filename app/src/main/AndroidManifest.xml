@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nfatma.novapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ShowAndEditText"></activity>
+        <activity android:name=".fireBaseDemo" />
+        <activity android:name=".CameraAndGallery" />
+        <activity android:name=".FragmentMain" />
+        <activity android:name=".FragmentDemo" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ToatDemo" />
+        <activity android:name=".NavDemo" />
+        <activity android:name=".DisplayText" />
+        <activity android:name=".MainMenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CheckBoxActivity" />
+
+        <service android:name=".DemoService" />
+
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".ToggleButtonActivity" />
+        <activity android:name=".SplashScreenActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".DisplayInfoActivity" />
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".UserPromptActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ListViewModelClassDemo" />
+        <activity android:name=".AudioActivity" />
+        <activity android:name=".VideoPlayer" />
+        <activity android:name=".SharedPreferance" />
+        <activity android:name=".RegForm" />
+        <activity android:name=".DisplayReg" />
+        <activity android:name=".FileDemo" />
+        <activity android:name=".CurdActivity" />
+        <activity android:name=".addActivity" />
+        <activity android:name=".deleteActivity" />
+        <activity android:name=".viewActivity" />
+        <activity android:name=".updateActivity" />
+        <activity android:name=".DatabaseUsingHandler" />
+        <activity android:name=".HandlerInsert" />
+        <activity android:name=".HandlerView" />
+        <activity android:name=".HandlerViewAll" />
+        <activity android:name=".HandlerUpdate" />
+        <activity android:name=".HandlerDelete" />
+        <activity android:name=".HandlerDeleteAll" />
+        <activity android:name=".ReceiverActivity" />
+        <activity android:name=".RecyclerViewDemo" />
+        <activity android:name=".ApiCalling" />
+    </application>
+
+</manifest>
